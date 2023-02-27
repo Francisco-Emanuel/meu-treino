@@ -1,36 +1,40 @@
 import React from 'react'
-import { Feature } from '../../components'
+import { FeatureTwo } from '../../components'
 import './features.css'
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'Motivo 1',
+    text: 'Ela é o amor da minha vida, não precisa de mais nada para ser a melhor',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'Motivo 2',
+    text: 'Ela é uma divindade',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    title: 'Motivo 3',
+    text: 'Tem o sorriso mais lindo do mundo!!!!',
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.',
+    title: 'Motivo 4',
+    text: 'Rafa tem um poder especial chamado autismo que torna ela muito fofa, ate parece que ela come arco-iris de tão linda',
+  },
+  {
+    title: 'Motivo 5',
+    text: 'Precisa de um 5°? Ela é perfeita simplesmente',
   },
 ]
 
 const Features = () => {
   return (
-    <div className="gpt3__features section__padding" id="features">
+    <div className="gpt3__features section__padding" id="porque">
       <div className="gpt3__features-heading">
-        <h1 className="gradient__text">The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
-        <p>Request Early Access to Get Started</p>
+        <h1 className="gradient__text">Top 5 motivos do porque rafa é perfeita!</h1>
+        <p>A mais pura verdade</p>
       </div>
       <div className="gpt3__features-container">
         {featuresData.map((item, index)=> (
-          <Feature title={item.title} text={item.text} key={item.title + index} />
+          <FeatureTwo title={item.title} text={item.text} key={item.title + index} />
         ))}
       </div>
     </div>

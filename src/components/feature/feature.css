@@ -11,6 +11,10 @@
     margin-right: 2rem;
 }
 
+.gpt3__features-container__feature-title iframe {
+    border: none;
+}
+
 .gpt3__features-container__feature-title h1 {
     font-family: var(--font-family);
     font-weight: 600;
